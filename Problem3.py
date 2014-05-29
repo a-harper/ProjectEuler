@@ -4,10 +4,10 @@ import math
 
 target = 600851475143
 
-i = 3
+i = 2
 while i * i < target:
      while target % i == 0:
          target = target / i
-     i += 2
+     i += 1
 
 print (target)
